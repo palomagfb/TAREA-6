@@ -1,0 +1,2 @@
+# data.txt
+# Aquí puedes añadir datos necesarios para tu programa.
