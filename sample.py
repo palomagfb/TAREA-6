@@ -4,14 +4,14 @@ def metodo1():
     # Aquí va el código del método 1
     comment = input("Ingrese un comentario: ")
     post = f'ポスト: {comment}'
-    with open("data.txt", "w") as file_pc:
+    with open("data.txt", "w", encoding="utf-8") as file_pc:
         file_pc.write(post)
     print("Evaluación completada")
 
 def metodo2():
     # Aquí va el código del método 2
     print('これまでの結果')
-    with open("data.txt", "r") as read_file:
+    with open("data.txt", "r", encoding="utf-8") as read_file:
         print(read_file.read())
 
 def metodo3():
